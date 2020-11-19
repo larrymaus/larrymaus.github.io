@@ -1,0 +1,78 @@
+﻿body{
+	background-image:url("../img/background.jpg");
+	 background-attachment: fixed;
+}
+
+h1{
+	color:AntiqueWhite;
+	background-color:Crimson;
+	text-align:center;
+	font-size:4em;
+	font-family:bold;
+}
+
+p{
+	color:Crimson;
+	text-align:center;
+	font-size:1.5em;
+	font-family:cursive;
+}
+
+.tor{
+	text-align:center;
+	font-size:4em;
+	font-family:cursive;
+	color:AntiqueWhite;
+	background-color:Crimson;
+	cursor: pointer;
+}
+
+.torQ{
+	text-align:center;
+	font-size:1em;
+	font-family:cursive;
+	color:Crimson;
+	background-color:AntiqueWhite;
+	cursor: pointer;
+}
+
+#ModHead{
+	background-image:url("../img/christmas.jpg");
+	color:AntiqueWhite;
+	text-align:center;
+	font-family:cursive;
+	font-size:2.3em;
+}
+
+#ModBody{
+	background-image:url("../img/background.jpg");
+}
+
+#ModalFoot{
+	background-image:url("../img/christmas2.png");
+}
+
+.blink{
+	animation: blinker 2s infinite;
+}
+
+@keyframes blinker {
+    0%{     color: White;    }
+    10%{    color: HotPink; }
+    20%{    color: Red; }
+    30%{    color:Orange;  }
+	40%{    color: Yellow; }
+    50%{    color: YellowGreen; }
+    60%{    color:DarkGreen;  }
+	70%{    color: Turquoise; }
+    80%{    color: Blue; }
+    90%{    color:Lavender;  }
+    100%{   color: White;    }
+}
+
+.imgCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
