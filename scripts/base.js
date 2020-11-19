@@ -175,7 +175,7 @@ function hoverOn(){
                             Content = '<img class="imgCenter"src="img/lindor.jpeg" ></img>';
                             break;
                         case "tor6":
-                            Content = 'Zimmmerpflanze';
+                            Content = '<img class="imgCenter"src="img/kaktus.jpeg" ></img>';
                             break;
                         case "tor7":
                             Content = '<img class="imgCenter"src="img/argan.jpeg" ></img>';
